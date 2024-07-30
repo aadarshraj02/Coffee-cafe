@@ -1,7 +1,7 @@
 import { useEffect } from "react";
 import AOS from "aos";
 import "aos/dist/aos.css";
-
+import Navbar from "./components/Navbar";
 
 const App = () => {
   useEffect(() => {
@@ -13,7 +13,11 @@ const App = () => {
     });
   });
 
-  return <div></div>;
+  return (
+    <div className="overflow-x-hidden">
+      <Navbar />
+    </div>
+  );
 };
 
 export default App;
