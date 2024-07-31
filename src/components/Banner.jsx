@@ -35,7 +35,7 @@ const Banner = () => {
                 focus is quality.
               </p>
               <div className="grid grid-cols-2 gap-6 ">
-                <div>
+                <div className="space-y-5">
                   <div className="flex items-center gap-3">
                     <GrSecure className="text-2xl h-12 w-12 shadow-sm p-3 rounded-full bg-red-100 " />
                     <span>Premium Coffee </span>
@@ -48,6 +48,14 @@ const Banner = () => {
                     <SiBuymeacoffee className="text-2xl h-12 w-12 shadow-sm p-3 rounded-full bg-yellow-100 " />
                     <span>Cold Coffee </span>
                   </div>
+                </div>
+                <div>
+                  <h1>Tea Lover</h1>
+                  <p>
+                    Much like writing code, brewing the perfect cup of tea
+                    requires patience, precision, and a dash of passion to
+                    create a comforting blend of flavors.
+                  </p>
                 </div>
               </div>
             </div>
