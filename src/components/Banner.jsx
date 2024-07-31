@@ -49,9 +49,11 @@ const Banner = () => {
                     <span>Cold Coffee </span>
                   </div>
                 </div>
-                <div>
-                  <h1>Tea Lover</h1>
-                  <p>
+                <div className="space-y-3">
+                  <h1 className="text-2xl font-semibold font-cursive">
+                    Tea Lover
+                  </h1>
+                  <p className="text-gray-500 text-sm">
                     Much like writing code, brewing the perfect cup of tea
                     requires patience, precision, and a dash of passion to
                     create a comforting blend of flavors.
