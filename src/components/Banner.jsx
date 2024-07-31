@@ -1,3 +1,4 @@
+import { GrSecure } from "react-icons/gr";
 const bgImage = {
   backgroundImage: "url('../../public/website/coffee-texture.jpg')",
   backgroundColor: "#270c03",
@@ -30,6 +31,13 @@ const Banner = () => {
                 as 'luxury' or 'Premium' should contain a high proportion of of
                 Arabica, or even be 100% Arabica.
               </p>
+              <div className="grid grid-cols-2 gap-6 ">
+                <div>
+                  <div>
+                    <GrSecure className="text-2xl h-12 w-12 shadow-sm p-3 rounded-full bg-red-100 " />
+                  </div>
+                </div>
+              </div>
             </div>
           </div>
         </div>
