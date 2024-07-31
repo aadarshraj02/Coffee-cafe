@@ -21,7 +21,14 @@ const Banner = () => {
                 alt=""
               />
             </div>
-            <div></div>
+            <div>
+              <h1>Premium Blend Coffee</h1>
+              <p>
+                Although the term 'premium' isn't a standard, a blend marketed
+                as 'luxury' or 'premium' should contain a high proportion of of
+                Arabica, or even be 100% Arabica.
+              </p>
+            </div>
           </div>
         </div>
       </div>
