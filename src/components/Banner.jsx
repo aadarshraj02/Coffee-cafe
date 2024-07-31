@@ -1,4 +1,7 @@
 import { GrSecure } from "react-icons/gr";
+import { LuCoffee } from "react-icons/lu";
+import { SiBuymeacoffee } from "react-icons/si";
+
 const bgImage = {
   backgroundImage: "url('../../public/website/coffee-texture.jpg')",
   backgroundColor: "#270c03",
@@ -33,9 +36,17 @@ const Banner = () => {
               </p>
               <div className="grid grid-cols-2 gap-6 ">
                 <div>
-                  <div>
+                  <div className="flex items-center gap-3">
                     <GrSecure className="text-2xl h-12 w-12 shadow-sm p-3 rounded-full bg-red-100 " />
                     <span>Premium Coffee </span>
+                  </div>
+                  <div className="flex items-center gap-3">
+                    <LuCoffee className="text-2xl h-12 w-12 shadow-sm p-3 rounded-full bg-red-100 " />
+                    <span>Hot Coffee </span>
+                  </div>
+                  <div className="flex items-center gap-3">
+                    <SiBuymeacoffee className="text-2xl h-12 w-12 shadow-sm p-3 rounded-full bg-red-100 " />
+                    <span>Cold Coffee </span>
                   </div>
                 </div>
               </div>
