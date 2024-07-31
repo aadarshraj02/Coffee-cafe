@@ -16,7 +16,7 @@ const Banner = () => {
   return (
     <>
       <div style={bgImage}>
-        <div className="container min-h-[550px] flex justify-center items-center py-12 sm:py-0 ">
+        <div className="container min-h-[620px] flex justify-center items-center py-12 sm:py-0 ">
           <div className="grid grid-cols-1 sm:grid-cols-2 gap-6">
             <div>
               <img
@@ -49,7 +49,7 @@ const Banner = () => {
                     <span>Cold Coffee </span>
                   </div>
                 </div>
-                <div className="space-y-3">
+                <div className="space-y-3 border-l-4 border-primary/50 pl-6">
                   <h1 className="text-2xl font-semibold font-cursive">
                     Tea Lover
                   </h1>
