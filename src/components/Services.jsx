@@ -46,6 +46,10 @@ const Services = () => {
                   className="max-w-[200px] block mx-auto transform -translate-y-14 hover:scale-110 hover:rotate-6 duration-300"
                 />
               </div>
+              <div>
+                <h1>{data.name}</h1>
+                <p>{data.description}</p>
+              </div>
             </div>
           ))}
         </div>
