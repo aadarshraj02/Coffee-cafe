@@ -1,3 +1,5 @@
+import { HeroImg } from "../assets/coffee2.png";
+
 const Home = () => {
   return (
     <div className="min-h-[550px] sm:min-h-[600px] bg-brandDark flex justify-center items-center text-white">
@@ -15,7 +17,9 @@ const Home = () => {
               </button>
             </div>
           </div>
-          <div></div>
+          <div>
+            <img src={HeroImg} alt="" />
+          </div>
         </div>
       </div>
     </div>
