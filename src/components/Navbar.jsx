@@ -1,4 +1,3 @@
-import Logo from "../assets/website/coffee_logo.png";
 import { SiCoffeescript } from "react-icons/si";
 
 const Navbar = () => {
@@ -29,7 +28,7 @@ const Navbar = () => {
               className="font-bold text-xl lg:text-3xl flex justify-center items-center gap-2 tracking-wider font-cursive"
             >
               <img
-                src={Logo}
+                src="../../public/website/coffee_logo.png"
                 alt=""
                 className="w-14 block sm:hidden lg:block"
               />
