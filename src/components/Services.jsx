@@ -38,6 +38,8 @@ const Services = () => {
             <div
               key={index}
               className="rounded-2xl bg-white hover:bg-primary hover:text-white shadow-xl duration-200 max-w-[300px] relative"
+              data-aos="fade-up"
+              data-aos-delay={data.aosDelay}
             >
               <div className="h-[130px]">
                 <img
@@ -46,9 +48,11 @@ const Services = () => {
                   className="max-w-[200px] block mx-auto transform -translate-y-14 hover:scale-110 hover:rotate-6 duration-300"
                 />
               </div>
-              <div>
-                <h1>{data.name}</h1>
-                <p>{data.description}</p>
+              <div className="p-4 text-center ">
+                <h1 className="text-xl font-bold">{data.name}</h1>
+                <p className="text-gray-400  duration-200 text-sm hover:text-white line-clamp-2 ">
+                  {data.description}
+                </p>
               </div>
             </div>
           ))}
