@@ -35,7 +35,10 @@ const Navbar = () => {
             <ul>
               {menus.map((menu, index) => (
                 <li key={index}>
-                  <a href="#" className="hover:text-secondary hover:underline">
+                  <a
+                    href={menu.link}
+                    className="hover:text-secondary hover:underline"
+                  >
                     {menu.name}
                   </a>
                 </li>
