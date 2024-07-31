@@ -1,6 +1,23 @@
 import Logo from "../assets/website/coffee_logo.png";
 
 const Navbar = () => {
+  const menus = [
+    {
+      id: 1,
+      name: "Home",
+      link: "/#",
+    },
+    {
+      id: 2,
+      name: "Services",
+      link: "/#services",
+    },
+    {
+      id: 3,
+      name: "About",
+      link: "/#about",
+    },
+  ];
   return (
     <div className="bg-gradient-to-r from-secondary to-secondary/90 text-white">
       <div className="container  ">
@@ -13,6 +30,17 @@ const Navbar = () => {
               <img src={Logo} alt="" className="w-14" />
               Coffee Cafe
             </a>
+          </div>
+          <div>
+            <ul>
+              {menus.map((menu, index) => (
+                <li key={index}>
+                  <a href="#" className="hover:text-secondary hover:underline">
+                    {menu.name}
+                  </a>
+                </li>
+              ))}
+            </ul>
           </div>
         </div>
       </div>
