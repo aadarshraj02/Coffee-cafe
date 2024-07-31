@@ -33,10 +33,19 @@ const Services = () => {
             Best Coffee For You
           </h1>
         </div>
-        <div>
+        <div className="grid grid-cols-1 sm:grid-cols-2 md:grid-cols-3 gap-14 md:gap-5 place-items-center">
           {servicesData.map((data, index) => (
-            <div key={index} className="">
-              <img src={data.img} alt="" />
+            <div
+              key={index}
+              className="rounded-2xl bg-white hover:bg-primary hover:text-white shadow-xl duration-200 max-w-[300px] relative"
+            >
+              <div className="h-[130px]">
+                <img
+                  src={data.img}
+                  alt=""
+                  className="max-w-[200px] block mx-auto transform -translate-y-14 hover:scale-110 hover:rotate-6 duration-300"
+                />
+              </div>
             </div>
           ))}
         </div>
