@@ -16,7 +16,11 @@ const Home = () => {
             </div>
           </div>
           <div>
-            <img src="../../public/coffee2.png" alt="" />
+            <img
+              src="../../public/coffee2.png"
+              alt=""
+              className="w-[300px] sm:w-[450px] sm:scale-110 mx-auto spin "
+            />
           </div>
         </div>
       </div>
