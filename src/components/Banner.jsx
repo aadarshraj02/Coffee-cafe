@@ -41,11 +41,11 @@ const Banner = () => {
                     <span>Premium Coffee </span>
                   </div>
                   <div className="flex items-center gap-3">
-                    <LuCoffee className="text-2xl h-12 w-12 shadow-sm p-3 rounded-full bg-red-100 " />
+                    <LuCoffee className="text-2xl h-12 w-12 shadow-sm p-3 rounded-full bg-orange-100 " />
                     <span>Hot Coffee </span>
                   </div>
                   <div className="flex items-center gap-3">
-                    <SiBuymeacoffee className="text-2xl h-12 w-12 shadow-sm p-3 rounded-full bg-red-100 " />
+                    <SiBuymeacoffee className="text-2xl h-12 w-12 shadow-sm p-3 rounded-full bg-yellow-100 " />
                     <span>Cold Coffee </span>
                   </div>
                 </div>
