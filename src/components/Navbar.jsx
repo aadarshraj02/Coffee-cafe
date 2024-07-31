@@ -21,14 +21,18 @@ const Navbar = () => {
   ];
   return (
     <div className="bg-gradient-to-r from-secondary to-secondary/90 text-white">
-      <div className="container  ">
+      <div className="container">
         <div className="flex justify-between items-center gap-4">
-          <div>
+          <div className="">
             <a
               href="#"
-              className="font-bold text-2xl sm:text-3xl flex justify-center items-center gap-2 tracking-wider font-cursive"
+              className="font-bold text-xl lg:text-3xl flex justify-center items-center gap-2 tracking-wider font-cursive"
             >
-              <img src={Logo} alt="" className="w-14" />
+              <img
+                src={Logo}
+                alt=""
+                className="w-14 block sm:hidden lg:block"
+              />
               Coffee Cafe
             </a>
           </div>
