@@ -21,13 +21,13 @@ const Banner = () => {
                 alt=""
               />
             </div>
-            <div>
+            <div className="flex flex-col justify-center gap-6 sm:pt-0">
               <h1 className="text-3xl sm:text-4xl font-bold font-cursive">
                 Premium Blend Coffee
               </h1>
               <p className="text-sm text-gray-500 tracking-wider leading-5">
                 Although the term 'premium' isn't a standard, a blend marketed
-                as 'luxury' or 'premium' should contain a high proportion of of
+                as 'luxury' or 'Premium' should contain a high proportion of of
                 Arabica, or even be 100% Arabica.
               </p>
             </div>
