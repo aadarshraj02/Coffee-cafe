@@ -32,7 +32,7 @@ const Navbar = () => {
             </a>
           </div>
           <div>
-            <ul>
+            <ul className="hidden sm:flex items-center gap-4">
               {menus.map((menu, index) => (
                 <li key={index}>
                   <a
@@ -44,6 +44,9 @@ const Navbar = () => {
                 </li>
               ))}
             </ul>
+            <button>
+              Order
+            </button>
           </div>
         </div>
       </div>
