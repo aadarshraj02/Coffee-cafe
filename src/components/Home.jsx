@@ -10,17 +10,20 @@ const Home = () => {
               city
             </h1>
             <div>
-              <button className="bg-gradient-to-r from-primary to-secondary border-2 border-primary rounded-full px-4 py-2 text-white hover:scale-105 duration-200 ">
+              <button className="bg-gradient-to-r from-primary to-secondary border-2 border-primary rounded-full px-4 py-2 mt-10 text-white hover:scale-105 duration-200 ">
                 Coffee And Code
               </button>
             </div>
           </div>
-          <div className="min-h-[450px] flex justify-center items-center order-1 sm:order-2">
+          <div className="relative min-h-[400px] flex  justify-center items-center order-1 sm:order-2 lg:ml-10">
             <img
               src="../../public/coffee2.png"
               alt=""
-              className="w-[300px] sm:w-[450px] sm:scale-110 mx-auto spin relative"
+              className=" w-[300px] sm:w-[400px] sm:scale-125 mx-auto spin "
             />
+            <div className="hidden xl:block bg-gradient-to-r from-primary to-secondary absolute top-10 left-10 p-3 rounded-xl">
+              <h1>Hey Coder</h1>
+            </div>
           </div>
         </div>
       </div>
