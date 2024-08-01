@@ -39,9 +39,13 @@ const Testimonial = () => {
             {testimonialData.map((data, index) => {
               return (
                 <div key={index} className="my-6">
-                  <div>
-                    <div>
-                      <img src={data.img} alt="" />
+                  <div className="fle flex-col gap-4 shadow-lg py-8 px-6 mx-4 rounded-xl bg-primary/10 relative">
+                    <div className="mb-4">
+                      <img
+                        className="rounded-full w-20 h-20 "
+                        src={data.img}
+                        alt=""
+                      />
                     </div>
                   </div>
                 </div>
