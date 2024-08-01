@@ -3,7 +3,7 @@ import { LuCoffee } from "react-icons/lu";
 import { SiBuymeacoffee } from "react-icons/si";
 
 const bgImage = {
-  backgroundImage: "url('../../public/website/coffee-texture.jpg')",
+  backgroundImage: "url('/website/coffee-texture.jpg')",
   backgroundColor: "#270c03",
   backgroundPosition: "center",
   backgroundRepeat: "no-repeat",
