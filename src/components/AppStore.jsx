@@ -10,11 +10,13 @@ const backgroundStyle = {
 const AppStore = () => {
   return (
     <>
-      <div>
+      <div className="py-14">
         <div className="container">
           <div className="grid grid-cols-1 sm:grid-cols-2 gap-4 items-center">
             <div>
-              <h1>Coffee Cafe is available for Android and IOS</h1>
+              <h1 className="text-2xl text-center sm:text-left sm:text-4xl font-semibold pl-3">
+                Coffee Cafe is available for Android and IOS
+              </h1>
             </div>
           </div>
         </div>
