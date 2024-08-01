@@ -92,7 +92,9 @@ const Testimonial = () => {
                         </h1>
                       </div>
                     </div>
-                    <p></p>
+                    <p className="text-black/20 text-9xl font-serif absolute -top-5 right-0">
+                      ,,
+                    </p>
                   </div>
                 </div>
               );
