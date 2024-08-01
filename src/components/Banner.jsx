@@ -15,6 +15,7 @@ const bgImage = {
 const Banner = () => {
   return (
     <>
+      <span id="about"></span>
       <div style={bgImage}>
         <div className="container min-h-[620px] flex justify-center items-center py-12 sm:py-0 ">
           <div className="grid grid-cols-1 sm:grid-cols-2 gap-6">
