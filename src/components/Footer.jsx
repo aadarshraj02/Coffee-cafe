@@ -34,7 +34,16 @@ const Footer = () => {
   return (
     <div style={bgImage} className="text-white">
       <div className="bg-black/40 min-h-[400px]">
-        <div className="container grid md:grid-cols-3 pb-20 pt-5"></div>
+        <div className="container grid md:grid-cols-3 pb-20 pt-5">
+          <div>
+            <a href="#">Coffee Cafe</a>
+            <p>
+              Crafted Coffee, Cozy Vibes, Unforgettable Moments - Your Perfect
+              Espresso Escape
+            </p>
+          </div>
+          <div></div>
+        </div>
       </div>
     </div>
   );
