@@ -15,3 +15,7 @@
 .spin {
   animation: spin 30s linear infinite;
 }
+
+html {
+  scroll-behavior: smooth;
+}
