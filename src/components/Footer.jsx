@@ -31,7 +31,11 @@ const bgImage = {
 };
 
 const Footer = () => {
-  return <div></div>;
+  return (
+    <div style={bgImage}>
+      <div className="container"></div>
+    </div>
+  );
 };
 
 export default Footer;
