@@ -71,6 +71,23 @@ const Footer = () => {
                 ))}
               </ul>
             </div>
+            <div className="py-8 px-4">
+              <h1 className="text-xl font-semibold sm:text-left mb-3">
+                Quick Link
+              </h1>
+              <ul className="space-y-3">
+                {footerLinks.map((data, index) => (
+                  <li key={index}>
+                    <a
+                      href={data.link}
+                      className="inline-block hover:scale:105 duration-200 "
+                    >
+                      {data.title}
+                    </a>
+                  </li>
+                ))}
+              </ul>
+            </div>
           </div>
         </div>
       </div>
