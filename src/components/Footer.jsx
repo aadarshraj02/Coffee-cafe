@@ -22,7 +22,7 @@ const footerLinks = [
 ];
 
 const bgImage = {
-  backgroundImage: "url('../../public/website/coffee-footer.jpg')",
+  backgroundImage: "url('/website/coffee-footer.jpg')",
   backgroundPosition: "center",
   backgroundRepeat: "no-repeat",
   backgroundSize: "cover",

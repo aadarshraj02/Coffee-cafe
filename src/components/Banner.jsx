@@ -22,7 +22,7 @@ const Banner = () => {
             <div data-aos="zoom-in">
               <img
                 className="max-w-[430px] w-full mx-auto spin drop-shadow-[10px_-10px_12px_rgba(0,0,0,1)]"
-                src="../../public/coffee-white.png"
+                src="/coffee-white.png"
                 alt=""
               />
             </div>
