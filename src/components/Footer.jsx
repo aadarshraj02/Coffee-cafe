@@ -36,8 +36,13 @@ const Footer = () => {
       <div className="bg-black/40 min-h-[400px]">
         <div className="container grid md:grid-cols-3 pb-20 pt-5">
           <div>
-            <a href="#">Coffee Cafe</a>
-            <p>
+            <a
+              href="#"
+              className="font-semibold tracking-widest text-wxl sm:text-3xl font-cursive"
+            >
+              Coffee Cafe
+            </a>
+            <p className="pt-4 ">
               Crafted Coffee, Cozy Vibes, Unforgettable Moments - Your Perfect
               Espresso Escape
             </p>
