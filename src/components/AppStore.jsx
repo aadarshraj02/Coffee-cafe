@@ -17,6 +17,11 @@ const AppStore = () => {
               <h1 className="text-2xl text-center sm:text-left sm:text-4xl font-semibold pl-3 text-white/90">
                 Coffee Cafe is available for Android and IOS
               </h1>
+              <div>
+                <a href="#">
+                  <img src="/website/app_store.png" alt="" />
+                </a>
+              </div>
             </div>
           </div>
         </div>
