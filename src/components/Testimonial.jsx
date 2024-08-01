@@ -37,7 +37,15 @@ const Testimonial = () => {
         <div>
           <Slider>
             {testimonialData.map((data, index) => {
-              return <div key={index}></div>;
+              return (
+                <div key={index} className="my-6">
+                  <div>
+                    <div>
+                      <img src={data.img} alt="" />
+                    </div>
+                  </div>
+                </div>
+              );
             })}
           </Slider>
         </div>
