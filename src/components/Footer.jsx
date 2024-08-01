@@ -58,10 +58,15 @@ const Footer = () => {
               <h1 className="text-xl font-semibold sm:text-left mb-3">
                 Footer Link
               </h1>
-              <ul>
+              <ul className="space-y-3">
                 {footerLinks.map((data, index) => (
                   <li key={index}>
-                    <a href={data.link}>{data.title}</a>
+                    <a
+                      href={data.link}
+                      className="inline-block hover:scale:105 duration-200 "
+                    >
+                      {data.title}
+                    </a>
                   </li>
                 ))}
               </ul>
