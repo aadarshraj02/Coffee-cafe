@@ -1,5 +1,30 @@
 import Slider from "react-slick";
-
+const testimonialData = [
+  {
+    id: 1,
+    name: "Unknown",
+    text: "Lorem ipsum dolor sit amet consectetur adipisicing elit. Eaque reiciendis inventore iste ratione ex alias quis magni at optio",
+    img: "https://picsum.photos/200",
+  },
+  {
+    id: 2,
+    name: "Identity Hidden",
+    text: "Lorem ipsum dolor sit amet consectetur adipisicing elit. Eaque reiciendis inventore iste ratione ex alias quis magni at optio",
+    img: "https://picsum.photos/202",
+  },
+  {
+    id: 3,
+    name: "Random Person",
+    text: "Lorem ipsum dolor sit amet consectetur adipisicing elit. Eaque reiciendis inventore iste ratione ex alias quis magni at optio",
+    img: "https://picsum.photos/204",
+  },
+  {
+    id: 4,
+    name: "Hidden",
+    text: "Lorem ipsum dolor sit amet consectetur adipisicing elit. Eaque reiciendis inventore iste ratione ex alias quis magni at optio",
+    img: "https://picsum.photos/203",
+  },
+];
 const Testimonial = () => {
   return (
     <div>
