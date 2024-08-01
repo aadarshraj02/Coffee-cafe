@@ -53,7 +53,13 @@ const Footer = () => {
               Visit Our Youtube Channel
             </a>
           </div>
-          <div></div>
+          <div className="col-span-2 grid grid-cols-2 sm:grid-cols-3 md:pl-10">
+            <div className="py-8 px-4">
+              <h1 className="text-xl font-semibold sm:text-left mb-3">
+                Footer Link
+              </h1>
+            </div>
+          </div>
         </div>
       </div>
     </div>
