@@ -1,3 +1,5 @@
+import Slider from "react-slick";
+
 const Testimonial = () => {
   return (
     <div>
@@ -6,6 +8,9 @@ const Testimonial = () => {
           <h1 className="text-4xl font-bold font-cursive text-gray-800">
             Testimonials
           </h1>
+        </div>
+        <div>
+          <Slider></Slider>
         </div>
       </div>
     </div>
