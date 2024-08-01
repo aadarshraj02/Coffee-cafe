@@ -84,6 +84,12 @@ const Testimonial = () => {
                         alt=""
                       />
                     </div>
+                    <div>
+                      <div>
+                        <p>{data.text}</p>
+                        <h1>{data.name}</h1>
+                      </div>
+                    </div>
                   </div>
                 </div>
               );
