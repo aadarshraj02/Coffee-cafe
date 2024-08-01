@@ -4,20 +4,20 @@ const Home = () => {
       <div className="container pb-8 sm:pb-0">
         <div className="grid grid-cols-1 sm:grid-cols-2">
           <div className="order-2 sm:order-1 flex flex-col justify-center gap-6">
-            <h1 className="text-5xl  sm:text-6xl lg:text-7xl font-bold">
+            <h1 data-aos="fade-down" data-aos-once="true" className="text-5xl  sm:text-6xl lg:text-7xl font-bold">
               We serve the richest{" "}
-              <span className="font-cursive text-primary">coffee</span> in the
+              <span data-aos="zoom-out" data-aos-delay="300" className="font-cursive text-primary">coffee</span> in the
               city
             </h1>
-            <div>
+            <div data-aos="fade-down" data-aos-delay="400">
               <button className="bg-gradient-to-r from-primary to-secondary border-2 border-primary rounded-full px-4 py-2 text-white hover:scale-105 duration-200 ">
                 Coffee And Code
               </button>
             </div>
           </div>
-          <div className="relative min-h-[400px] flex  justify-center items-center order-1 sm:order-2 lg:ml-10">
+          <div data-aos="zoom-in"  className="relative min-h-[400px] flex  justify-center items-center order-1 sm:order-2 lg:ml-10">
             <img
-              src="../../public/coffee2.png"
+              src="/coffee2.png"
               alt=""
               className=" w-[300px] sm:w-[400px] sm:scale-125 mx-auto spin "
             />
