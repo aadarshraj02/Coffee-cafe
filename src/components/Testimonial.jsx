@@ -35,7 +35,11 @@ const Testimonial = () => {
           </h1>
         </div>
         <div>
-          <Slider></Slider>
+          <Slider>
+            {testimonialData.map((data, index) => {
+              return <div key={index}></div>;
+            })}
+          </Slider>
         </div>
       </div>
     </div>
