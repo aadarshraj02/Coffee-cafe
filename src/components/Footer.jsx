@@ -95,6 +95,17 @@ const Footer = () => {
               <div>
                 <p className="mb-3 ">123,Any Town, Any Country</p>
                 <p>Email: abc@gmail.com</p>
+                <div>
+                  <a href="#">
+                    <FaFacebook className="text-3xl inline-block hover:scale-105 duration-200 " />
+                  </a>
+                  <a href="#">
+                    <FaInstagram className="text-3xl inline-block hover:scale-105 duration-200 " />
+                  </a>
+                  <a href="#">
+                    <FaLinkedin className="text-3xl inline-block hover:scale-105 duration-200 " />
+                  </a>
+                </div>
               </div>
             </div>
           </div>
