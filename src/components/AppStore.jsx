@@ -19,7 +19,18 @@ const AppStore = () => {
               </h1>
               <div>
                 <a href="#">
-                  <img src="/website/app_store.png" alt="" className="max-w-[150px] sm:max-w-[120px] md:max-w-[200px] " />
+                  <img
+                    src="/website/app_store.png"
+                    alt=""
+                    className="max-w-[150px] sm:max-w-[120px] md:max-w-[200px] "
+                  />
+                </a>
+                <a href="#">
+                  <img
+                    src="/website/play_store.png"
+                    alt=""
+                    className="max-w-[150px] sm:max-w-[120px] md:max-w-[200px] "
+                  />
                 </a>
               </div>
             </div>
