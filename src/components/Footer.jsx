@@ -35,7 +35,7 @@ const Footer = () => {
     <div style={bgImage} className="text-white">
       <div className="bg-black/40 min-h-[400px]">
         <div className="container grid md:grid-cols-3 pb-20 pt-5">
-          <div>
+          <div className="py-8 px-4">
             <a
               href="#"
               className="font-semibold tracking-widest text-wxl sm:text-3xl font-cursive"
@@ -58,6 +58,13 @@ const Footer = () => {
               <h1 className="text-xl font-semibold sm:text-left mb-3">
                 Footer Link
               </h1>
+              <ul>
+                {footerLinks.map((data, index) => (
+                  <li key={index}>
+                    <a href={data.link}>{data.title}</a>
+                  </li>
+                ))}
+              </ul>
             </div>
           </div>
         </div>
